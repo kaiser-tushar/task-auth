@@ -1,0 +1,22 @@
+{
+    "name": "kaiser-tushar/task-auth",
+    "description": "Simple Authentication application implemented in Raw PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kiaser Ahmed Tushar",
+            "email": "tusharkaiser@gmail.com"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^1.7",
+        "twig/twig": "^3.0",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"src"
+        }
+    }
+}

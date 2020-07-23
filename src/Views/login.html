@@ -1,0 +1,35 @@
+{% extends "Layout/default.html" %}
+{% block title %}
+    {{parent()}}
+    Login
+{% endblock %}
+{% block head %}
+{{ parent() }}
+
+{% endblock %}
+
+{% block content %}
+{% include( "Elements/flash.html") %}
+<div class="offset-4 col-4">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Login</h4>
+            <form action="./login" method="post">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="you@mail.com" value="{{response.input.email}}" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-group">
+                    Don't have account? <a href="./register" class="">Register</a>
+                    <button type="submit" class="btn btn-primary float-right">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
