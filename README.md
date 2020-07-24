@@ -1,6 +1,6 @@
 # Task-Auth-CakePHP
 
-Task-Auth is a Simple CakePHP (version 4) application that lets you register user, login with that user and you will see user list.
+Task-Auth is a Simple PHP application that lets you register user, login with that user and you will see user list.
 
 ## Description
 This application can create user by simple registration and show user list after login.
