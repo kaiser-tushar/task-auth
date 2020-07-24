@@ -1,4 +1,4 @@
-# Task-Auth-CakePHP
+# Task-Auth
 
 Task-Auth is a Simple PHP application that lets you register user, login with that user and you will see user list.
 
