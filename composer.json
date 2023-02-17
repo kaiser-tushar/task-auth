@@ -12,7 +12,7 @@
     "require": {
         "catfan/medoo": "^1.7",
         "twig/twig": "^3.0",
-        "firebase/php-jwt": "^5.2"
+        "firebase/php-jwt": "^6.0"
     },
     "autoload": {
         "psr-4": {
